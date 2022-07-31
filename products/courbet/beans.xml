@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+     SPDX-FileCopyrightText: Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<manifest>
+  <include name="../platforms/msmnile.xml" />
+
+  <remove-project name="hardware/qcom/display" />
+  <project name="ElXreno/android_hardware_qcom_display" path="hardware/qcom/display" remote="github" revision="vauxite-855" />
+
+  <project name="AOSPA/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="vauxite" />
+  <project name="ElXreno/android_device_xiaomi_sm6150-common" path="device/xiaomi/sm6150-common" remote="github" revision="uvite" />
+  <project name="ElXreno/android_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="uvite" />
+  <project name="ElXreno/android_device_xiaomi_courbet" path="device/xiaomi/courbet" remote="github" revision="uvite" />
+  <project name="ElXreno/android_kernel_xiaomi_courbet" path="kernel/xiaomi/sm6150" remote="github" revision="vauxite-clo" />
+</manifest>
